@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <clipPath id="circle-au"><circle cx="50" cy="50" r="48"/></clipPath>
+    <g clip-path="url(#circle-au)">
+      <rect width="100" height="100" fill="#00008B"/>
+      <!-- Small canton Union Jack -->
+      <g transform="scale(0.48)">
+        <rect width="100" height="100" fill="#012169"/>
+        <path d="M0 0 L100 100 M100 0 L0 100" stroke="#FFFFFF" stroke-width="16"/>
+        <path d="M0 0 L100 100 M100 0 L0 100" stroke="#C8102E" stroke-width="10"/>
+        <path d="M50 0 V100 M0 50 H100" stroke="#FFFFFF" stroke-width="26"/>
+        <path d="M50 0 V100 M0 50 H100" stroke="#C8102E" stroke-width="16"/>
+      </g>
+      <!-- Commonwealth star -->
+      <circle cx="25" cy="72" r="9" fill="#FFFFFF"/>
+      <!-- Southern Cross stars -->
+      <circle cx="75" cy="25" r="4.5" fill="#FFFFFF"/>
+      <circle cx="85" cy="45" r="4.5" fill="#FFFFFF"/>
+      <circle cx="72" cy="78" r="4.5" fill="#FFFFFF"/>
+      <circle cx="62" cy="54" r="4.5" fill="#FFFFFF"/>
+    </g>
+    <circle cx="50" cy="50" r="48" fill="none" stroke="#E7EAEC" stroke-width="2"/>
+  </svg>
